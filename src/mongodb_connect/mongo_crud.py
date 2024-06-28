@@ -15,7 +15,7 @@ from ensure import ensure_annotations
 
 
 class mongo_operation:
-    __collection=None # here i have created a private/protected variable
+    __collection=None      # here i have created a private/protected variable
     __database=None
     
     def __init__(self,client_url: str, database_name: str, collection_name: str=None):
